@@ -1,9 +1,2 @@
-findawayer.github.io
+https://playmoreh2.github.io/portfolio/
 ====================
-
-## About
-
-This is my personal web implementation portfolio.
-Any of you interested in seeing it, please visit:
-
-npm 
