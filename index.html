@@ -275,7 +275,8 @@
                                 <h3 class="gallery-title">{{p.name}}</h3>
                                 <ul class="gallery-spec">
                                     <li class="gallery-spec-item"><strong class="gallery-spec-key">사용기술</strong> <span class="gallery-spec-value">{{p.skill}}</span></li>
-                                    <li class="gallery-spec-item"><strong class="gallery-spec-key">참여도</strong> <span class="gallery-spec-value">{{p. part}}</span></li>
+                                    <li class="gallery-spec-item"><strong class="gallery-spec-key">참여도</strong> <span class="gallery-spec-value">{{p.part}}</span></li>
+                                    <li class="gallery-spec-item"><strong class="gallery-spec-key">프로젝트 기간</strong> <span class="gallery-spec-value">{{p.since}}</span></li>
                                 </ul>
                                 <div id="work1Description">
                                     <p v-html="p.deck"></p>
@@ -393,6 +394,7 @@ var app = new Vue({
                 imgUrl: '<img class="gallery-image-thumb" src="./img/main_kdb.png" alt="KDB 산업은행 랜딩 페이지" aria-describedby="work1Description">',
                 skill:'html, css',
                 part:'퍼블리싱 : 30%',
+                since:'2018.05 ~ 2019.03',
                 siteUrl: 'https://www.kdb.co.kr/index.jsp',
                 deck:'<div class="wow">인터넷뱅킹 차세대채널 구축</div>'
 
@@ -401,6 +403,7 @@ var app = new Vue({
                 imgUrl: '<img class="gallery-image-thumb" src="./img/main_hrdnet.png" alt="HRD-Net 랜딩 페이지" aria-describedby="work2Description">',
                 skill:'html, css',
                 part:'퍼블리싱 : 70%',
+                since:'2016.11 ~ 2017.03',
                 siteUrl: 'http://www.hrd.go.kr/hrdp/ma/pmmao/indexNew.do',
                 deck:'<div class="wow">HRD-Net 개편 사업</div>'
 
@@ -409,6 +412,7 @@ var app = new Vue({
                 imgUrl: '<img class="gallery-image-thumb" src="./img/main_fanbook.png" alt="SM 엔터네인먼트 fanbook 랜딩 페이지" aria-describedby="work3Description">',
                 skill:'html, css, js',
                 part:'퍼블리싱 : 100%, 스크립트 : 100%',
+                since:'2016.01 ~ 2016.04',
                 siteUrl: 'https://www.fanbook.me/intro',
                 deck:'<div class="wow">SM팬아트 플랫폼</div>'
 
